@@ -2,6 +2,10 @@
 -- Banco de dados: `db_santacasa`
 --
 
+CREATE SCHEMA `db_santacasa` DEFAULT CHARACTER SET utf8 ;
+
+--
+
 Use db_santacasa
 
 
