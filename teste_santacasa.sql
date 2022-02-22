@@ -6,7 +6,7 @@ CREATE SCHEMA `db_santacasa` DEFAULT CHARACTER SET utf8 ;
 
 --
 
-Use db_santacasa
+Use db_santacasa;
 
 
 --
@@ -20,7 +20,7 @@ CREATE TABLE `atendimentomedico` (
   `telefone` varchar(15) COLLATE utf8_bin DEFAULT NULL,
   `email` varchar(255) COLLATE utf8_bin DEFAULT NULL,
   `sexo` varchar(1) COLLATE utf8_bin DEFAULT NULL
-)
+);
 
 --
 -- Extraindo dados da tabela `atendimentomedico`
@@ -139,7 +139,7 @@ CREATE TABLE `beneficiario` (
   `nome` varchar(11) COLLATE utf8_bin DEFAULT NULL,
   `data_nasc` date DEFAULT NULL,
   `sexo` text COLLATE utf8_bin DEFAULT NULL
-)
+);
 
 --
 -- Extraindo dados da tabela `beneficiario`
@@ -256,7 +256,7 @@ CREATE TABLE `especialidade` (
   `EspecialidadeID` int(11) NOT NULL,
   `Especialidade` varchar(255),
   `CBOS` varchar(255)
-)
+);
 
 --
 -- Extraindo dados da tabela `especialidade`
@@ -374,7 +374,7 @@ CREATE TABLE `localatendimento` (
   `local` varchar(255),
   `procedimento` varchar(255),
   `data` date DEFAULT NULL
-)
+);
 
 --
 -- Extraindo dados da tabela `localatendimento`
@@ -491,7 +491,7 @@ CREATE TABLE `medico` (
   `nome` varchar(255),
   `crm` varchar(255),
   `data_nasc` date DEFAULT NULL
-)
+);
 --
 -- Extraindo dados da tabela `medico`
 --
@@ -606,7 +606,7 @@ CREATE TABLE `procedimento` (
   `ProcedimentoID` int(255) NOT NULL,
   `desc_proc` varchar(255),
   `tipo_proc` varchar(255)
-)
+);
 
 --
 -- Extraindo dados da tabela `procedimento`
