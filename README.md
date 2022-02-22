@@ -21,4 +21,4 @@ Para então baixar as dependências, então o seguinte comando no terminal:
 
 > yarn dev
 
-A aplicação estará funcionando na porta local 4567.
+A aplicação estará funcionando na porta local 4567. O Frontend consumirá a aplicação nesta porta.
